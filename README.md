@@ -8,7 +8,6 @@ LaTeX template for MSc/BSc/PhD theses of Allameh Tabatabai University.
 
 ## راهنمای فارسی
 ### ویژگی‌ها
-1. منطبق با [«دستورالعمل نگارش و تدوین پایان‌نامه» دانشگاه علامه طباطبایی، ویرایش اول، شهریور ۱۳۹۲][egufa site].
 1. طراحی مدولار و انعطاف‌پذیر، به همراه دستورات از پیش‌تعریف‌شده برای مشخصات متغیر یک پایان‌نامهٔ دانشگاه علامه طباطبایی (مثل عنوان، نام دانشچو، استاد راهنما، تاریخ و غیره).
 1. ‫استفاده از قلم‌های استاندارد [سری X نسخهٔ ۲][irmug-persian] یا قلم‌های استاندارد سری [IRFonts][irfonts] اثر شورای عالی اطلاع‌رسانی (به جای قلم‌های غیراستاندارد BFonts).
 1. ‫ساخته شده بر اساس قالب‌های پیشرفته‌های [IUST-Thesis][iust-template] و HSU-Thesis-V1 اثر دکتر محمود امین‌طوسی.
@@ -21,9 +20,7 @@ LaTeX template for MSc/BSc/PhD theses of Allameh Tabatabai University.
 
 ### چگونه استفاده کنیم؟
 
-آخرین نسخهٔ منتشرشدهٔ قالب را می‌توانید از
-[![GitHub release](https://img.shields.io/github/release/sinamomken/tehran-thesis.svg?style=flat-square)](https://github.com/sinamomken/tehran-thesis/releases/latest)
-دریافت کنید.
+
 با دستور زیر نیز می‌توانید به آخرین نسخهٔ در حال توسعهٔ قالب دسترسی داشته باشید:
 <div dir="ltr">
 
