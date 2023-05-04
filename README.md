@@ -1,9 +1,7 @@
 # Allameh Tabatabai-thesis
 
-[![GitHub release](https://img.shields.io/github/release/sinamomken/tehran-thesis.svg?style=flat-square)](https://github.com/sinamomken/tehran-thesis/releases/latest)
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/sinamomken/tehran-thesis/Build?style=flat-square)](https://github.com/sinamomken/tehran-thesis/actions/workflows/build.yml)
 
-LaTeX template for MSc/BSc/PhD theses of University of Tehran.
+LaTeX template for MSc/BSc/PhD theses of Allameh Tabatabai University.
 <div dir="rtl">قالب لاتک پایان‌نامه دانشگاه علامه طباطبایی</div>
 
 <div dir="rtl">
@@ -117,7 +115,6 @@ More screenshots are available in [`img`][imgs] folder.
 
 [biditexmaker]: http://www.parsilatex.com/joomla/index.php?option=com_remository&Itemid=82&func=select&id=2
 
-[imgs]: https://github.com/sinamomken/tehran-thesis/tree/master/img
 
 [irmug-persian]: http://wiki.irmug.com/index.php/%D9%82%D9%84%D9%85%D9%87%D8%A7%DB%8C_%D8%B3%D8%B1%DB%8C_%D8%A7%DB%8C%DA%A9%D8%B3_%D9%86%D8%B3%D8%AE%D9%87%D9%94_%DB%B2
 [irmug-english]: http://wiki.irmug.com/index.php/X_Series_2
