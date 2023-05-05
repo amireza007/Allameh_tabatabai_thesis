@@ -16,7 +16,7 @@
 \ProcessOptions
 \LoadClass[a4paper,12pt]{book}
 \def\university#1{\gdef\@university{#1}}
-\def\college#1{\gdef\@college{#1}}
+%\def\college#1{\gdef\@college{#1}}
 \def\faculty#1{\gdef\@faculty{#1}}
 \def\department#1{\gdef\@department{#1}}
 \def\degree#1{\gdef\@degree{#1}}
@@ -106,35 +106,35 @@
 %\topmargin=-30pt
 \vspace{-10mm}
 % دستورات دوآرمه
-\begin{latin}
-\hskip-1cm
-\makebox[\textwidth+2cm][c]{
-\begin{minipage}{5cm}
-	\centering
-	\includegraphics[height=4cm]{eng-logo}
-\end{minipage}
-\begin{minipage}{\textwidth - 8cm}
-	\begin{center}
-	\begin{persian}
-		\begin{onehalfspacing}
-		{\normalsize \bf \@university \\}
-		{\normalsize \bf \@college \\}
-		{\large\bfseries\@faculty \\}
-		{\large\bfseries\@department}
-		\end{onehalfspacing}
-	\end{persian}
-	\end{center}
-\end{minipage}
-\begin{minipage}{5cm}
-	\centering
-	\includegraphics[height=4cm]{logo}
-\end{minipage}
-}
-\end{latin}
+%\begin{latin}
+%\hskip-1cm
+%\makebox[\textwidth+2cm][c]{
+%\begin{minipage}{5cm}
+%	\centering
+%	\includegraphics[height=4cm]{eng-logo}
+%\end{minipage}
+%\begin{minipage}{\textwidth - 8cm}
+%	\begin{center}
+%	\begin{persian}
+%		\begin{onehalfspacing}
+%		{\normalsize \bf \@university \\}
+%		{\normalsize \bf \@college \\}
+%		{\large\bfseries\@faculty \\}
+%		{\large\bfseries\@department}
+%		\end{onehalfspacing}
+%	\end{persian}
+%	\end{center}
+%\end{minipage}
+%\begin{minipage}{5cm}
+%	\centering
+%	\includegraphics[height=4cm]{logo}
+%\end{minipage}
+%}
+%\end{latin}
 % دستورات تک‌آرمه
-%\centerline{{\includegraphics[width=5cm]{logo}}}
-%\centerline{\bf \@university}
-%\centerline{\large\bfseries\@faculty}
+\centerline{{\includegraphics[width=5cm]{logo}}}
+\centerline{\bf \@university}
+\centerline{\large\bfseries\@faculty}
 % بعد از آرم‌ها
 \centering
 \vskip 1.5cm
@@ -149,19 +149,19 @@
 	\fi
 	}
 \else
-	{\large\bfseries \@projectLabel\ \writtenfor
-	\@degree{} 
-	}
-	{\large\bfseries{در رشتهٔ \@subject}}
-	\vskip .2cm
-	\centerline{\large \bfseries%
-		گرایش \@field}
+%	{\large\bfseries \@projectLabel\ \writtenfor
+%	\@degree{} 
+%	}
+%	{\large\bfseries{در رشتهٔ \@subject}}
+%	\vskip .2cm
+%	\centerline{\large \bfseries%
+%		گرایش \@field}
 \fi	
 \vskip 1cm
 \par
 {\Large\bfseries{\@name\ \ \@surname}}
 \par
-\vskip 1cm
+\vskip 4mm
 \large
 {
 \ifx\@firstsupervisor\undefined%
@@ -170,14 +170,18 @@
 	\fi
 \else
 \ifx\@secondsupervisor\undefined%
-استاد راهنما
-{\Large\bfseries\par
+% برای تغییر به استاد راهنما، خط زیر را تغییر دهید
+
+استاد سمینار
+{\Large\bfseries
 \@firstsupervisor}
 \else
 \large
-اساتید راهنما
-\par
-{\Large\bfseries \@firstsupervisor{} و \@secondsupervisor}
+%\centering
+استاد سمینار 
+\vskip -1cm
+{\Large\bfseries \@firstsupervisor{} 
+}
 \fi\fi}
 
 
@@ -204,35 +208,35 @@
 %\topmargin=-30pt
 \vspace{-10mm}
 % دستورات دوآرمه
-\begin{latin}
-\hskip-1cm
-\makebox[\textwidth+2cm][c]{
-\begin{minipage}{5cm}
-	\centering
-	\includegraphics[height=4cm]{eng-logo}
-\end{minipage}
-\begin{minipage}{\textwidth - 8cm}
-	\begin{center}
-	\begin{persian}
-		\begin{onehalfspacing}
-		{\normalsize \bf \@university \\}
-		{\normalsize \bf \@college \\}
-		{\large\bfseries\@faculty \\}
-		{\large\bfseries\@department}
-		\end{onehalfspacing}
-	\end{persian}
-	\end{center}
-\end{minipage}
-\begin{minipage}{5cm}
-	\centering
-	\includegraphics[height=4cm]{logo}
-\end{minipage}
-}
-\end{latin}
-% دستورات تک‌آرمه
-%\centerline{{\includegraphics[width=5cm]{logo}}}
-%\centerline{\bf \@university}
-%\centerline{\large\bfseries\@faculty}
+%\begin{latin}
+%\hskip-1cm
+%\makebox[\textwidth+2cm][c]{
+%\begin{minipage}{5cm}
+%	\centering
+%	\includegraphics[height=4cm]{eng-logo}
+%\end{minipage}
+%\begin{minipage}{\textwidth - 8cm}
+%	\begin{center}
+%	\begin{persian}
+%		\begin{onehalfspacing}
+%		{\normalsize \bf \@university \\}
+%		{\normalsize \bf \@college \\}
+%		{\large\bfseries\@faculty \\}
+%		{\large\bfseries\@department}
+%		\end{onehalfspacing}
+%	\end{persian}
+%	\end{center}
+%\end{minipage}
+%\begin{minipage}{5cm}
+%	\centering
+%	\includegraphics[height=4cm]{logo}
+%\end{minipage}
+%}
+%\end{latin}
+%% دستورات تک‌آرمه
+\centerline{{\includegraphics[width=5cm]{logo}}}
+\centerline{\bf \@university}
+\centerline{\large\bfseries\@faculty}
 % بعد از آرم‌ها
 \centering
 \vskip 1.5cm
@@ -259,7 +263,7 @@
 \par
 {\Large\bfseries{\@name\ \ \@surname}}
 \par
-\vskip 15mm
+\vskip 10mm
 \large
 {
 \ifx\@firstsupervisor\undefined%
@@ -329,7 +333,7 @@
 	\begin{center}
 		\begin{onehalfspacing}
 		{\normalsize \bf \@university \\}
-		{\normalsize \bf \@college \\}
+%		{\normalsize \bf \@college \\}
 		{\large\bfseries\@faculty \\}
 		%{\large\bfseries\@department}
 		\end{onehalfspacing}
