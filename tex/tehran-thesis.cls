@@ -134,6 +134,7 @@
 % دستورات تک‌آرمه
 \centerline{{\includegraphics[width=5cm]{logo}}}
 \centerline{\bf \@university}
+\vskip 5mm
 \centerline{\large\bfseries\@faculty}
 % بعد از آرم‌ها
 \centering
@@ -141,7 +142,9 @@
 {\huge\titlefont\bfseries \@title}\par
 \vskip 5mm
 \if@bscthesis 
-	{\large\bfseries{پروژهٔ کارشناسی \@subject}
+	{\large\bfseries{سمینار کارشناسی ارشد 
+%			\@subject
+		}
 	\ifx\@field\undefined%
 		\relax
 	\else
